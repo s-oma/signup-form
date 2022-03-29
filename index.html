@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+        <!-- CSS file -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google Fonts - Roboto - Open Sans -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="images-box">
+            <img src="imgs/odin-lined.png" alt="">
+            <div class="image-info">
+                <p>Photo by Lukasz Szmigiel on Unsplash</p>
+            </div>
+        </div>
+        <div class="form-box">
+            <div class="intro-text">
+                <p>This is NOT a real online service! You know you need somthing like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign Up <em>NOW</em> to get started.</p>
+                <p>You <em>KNOW</em> you want to.</p>
+            </div>
+            <div class="form-content">
+                <h2>Let's Do This!</h2>
+                <form action="">
+                    <div class="left">
+                        <input class="input" id="first-name" type="text" placeholder="FIRST NAME" name="first-name">
+                        <label for="first-name" class="form-label">FIRST NAME</label>
+                        <input class="input" id="email" type="email" placeholder="EMAIL" name="email">
+                        <label for="email" class="form-label">EMAIL</label>
+                        <div class="password-container" data-error="*Password do not match">
+                            <input class="input" id="password" type="text" placeholder="PASSWORD" name="password">
+                            <label for="password" class="form-label">PASSWORD</label>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <input class="input" id="last-name" type="text" placeholder="LAST NAME" name="last-name">
+                        <label for="last-name" class="form-label">LAST NAME</label>
+                        <input class="input" id="mobile" type="text" placeholder="PHONE NUMBER" name="mobile">
+                        <label for="mobile" class="form-label">PHONE NUMBER</label>
+                        <input class="input" id="confirm-password" type="text" placeholder="CONFIRM PASSWORD" name="confirm-password">
+                        <label for="confirm-password" class="form-label">CONFIRM PASSWORD</label>
+                    </div>
+                </form>
+            </div>
+            <div class="create-acount">
+                <input id="create-acount" type="submit" value="Create Acount">
+                <p>Already have an acount! <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
